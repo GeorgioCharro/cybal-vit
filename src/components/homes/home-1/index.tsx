@@ -1,3 +1,4 @@
+import React from "react";
 import FooterOne from "../../../layouts/footers/FooterOne";
 import HeaderOne from "../../../layouts/headers/HeaderOne";
 import ScrollTop from "../../common/ScrollTop";
@@ -12,26 +13,61 @@ import PriceAreaHomeOne from "./PriceAreaHomeOne";
 import ServiceAreaHomeOne from "./ServiceAreaHomeOne";
 import TeamAreaHomeOne from "./TeamAreaHomeOne";
 import TestimonialAreaHomeOne from "./TestimonialAreaHomeOne";
+import useFadeInOnScroll from "../../../hooks/useFadeInOnScroll";
 
- 
 
-const HomeOne = () => {
+interface FadeInSectionProps {
+  children: React.ReactNode;
+}
+
+const FadeInSection: React.FC<FadeInSectionProps> = ({ children }) => {
+  const [ref, isVisible] = useFadeInOnScroll<HTMLDivElement>();
+  return (
+    <div ref={ref} className={`fade-in ${isVisible ? "visible" : ""}`}>
+      {children}
+    </div>
+  );
+};
+
+const HomeOne: React.FC = () => {
   return (
     <>
-       <HeaderOne />
-       <HeroAreaHomeOne />
-       <CounterAreaHomeOne />
-       <AboutAreaHomeOne />
-       <ServiceAreaHomeOne />
-       <AoutUsAreaHomeOne />
-       <PortfolioAreaHomeOne />
-       <ChooseAreaHomeOne />
-       <PriceAreaHomeOne />
-       <TestimonialAreaHomeOne />
-       <TeamAreaHomeOne />
-       <NewsletterAreaHomeOne />
-       <FooterOne />
-       <ScrollTop />
+      <HeaderOne />
+      <FadeInSection>
+        <HeroAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <CounterAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <AboutAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <ServiceAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <AoutUsAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <PortfolioAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <ChooseAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <PriceAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <TestimonialAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <TeamAreaHomeOne />
+      </FadeInSection>
+      <FadeInSection>
+        <NewsletterAreaHomeOne />
+      </FadeInSection>
+      <FooterOne />
+      <ScrollTop />
     </>
   );
 };

@@ -1,36 +1,7 @@
-/*
-Author       : theme_ocean
-Template Name: Cybal - Cyber Security HTML Template
-Version      : 1.0
-*/
-/*=============================================================
-    CSS INDEX
-    =============================
-    01. GENERAL STYLE (body, link color, section-title, preloader btn, overlay, section-padding etc)
-    02. START BOOTSTRAP NAVIGATION OVERRIDES
-    03. START HOME DESIGN
-    04. START ABOUT DESIGN
-    05. START WHY CHOOSE DESIGN
-    06. START PLATFORM + TRADERS DESIGN
-    07. START MVP DESIGN
-    08. START TOKEN SALE + DISTRIBUTION DESIGN
-    09. START DOCUMENT DESIGN
-    10. START ROADMAP DESIGN
-    11. START TEAM AND BOARD DIRECTOR DESIGN
-    12. START APP DESIGN
-    13. START FAQ DESIGN
-    14. START CONTACT DESIGN
-    15. START PARTNER DESIGN
-    16. START FOOTER DESIGN
-  =============================================================*/
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GENERAL STYLE
-* ----------------------------------------------------------------------------------------
-*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 body {
 	color: rgba(255,255,255,0.8);
-	font-family: 'Exo', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
@@ -47,12 +18,12 @@ body {
 	h6 {
 		letter-spacing: 0px;
 		margin-top: 0px; 
-		font-family: 'Exo', sans-serif;
+		font-family: 'Montserrat', sans-serif;
 		color: #fff;
 		font-weight: 400;
 	}
 	a {
-	font-family: 'Exo', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease 0s;
 	transition: all 0.2s ease 0s;
@@ -106,7 +77,7 @@ body {
 		height: 4.8px;
 		display: inline-block;
 		position: relative;
-		background: #18fef5;
+		background: #5e9999;
 		box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 		box-sizing: border-box;
 		animation: animFw 8s linear infinite;
@@ -116,7 +87,7 @@ body {
 			content: '';
 			width: 10px;
 			height: 1px;
-			background: #18fef5;
+			background: #5e9999;
 			position: absolute;
 			top: 9px;
 			right: -2px;
@@ -194,9 +165,9 @@ body {
 	background:none;
 	border-radius: 30px;
 	bottom: 5px;
-	border:2px solid #18fef5;
+	border:2px solid #5e9999;
 	box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
-	color: #18fef5;
+	color: #5e9999;
 	cursor: pointer;
 	font-size: 22px;
 	height: 50px;
@@ -211,15 +182,15 @@ body {
 	width: 50px;
 	}
 	.topcontrol:hover {
-			background:#18fef5;
-		border:2px solid #18fef5;
+			background:#5e9999;
+		border:2px solid #5e9999;
 			color: #000;
 	}
 	/*END SCROLL TO TOP*/
 	/*START BTN*/
 	.btn_one {
-		background-image: -webkit-linear-gradient(to right, #0196E7 0%, #FF00A4 51%, #FF00A4 100%); 
-		background-image: linear-gradient(to right, #0196E7 0%, #FF00A4 51%, #FF00A4 100%);
+		background-image: -webkit-linear-gradient(to right, #5e9999 0%, #477577 51%, #5e9999 100%);
+    	background-image: linear-gradient(to right, #5e9999 0%, #477577 51%, #5e9999 100%);
 		border-radius: 3px;
 		background-size: 200% auto;
 		border-style: none;
@@ -245,16 +216,26 @@ body {
 	margin-top: 0px;
 	}
 	}
+	.fade-in {
+		opacity: 0;
+		transform: translateY(20px);
+		transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+	  }
+	  
+	  .fade-in.visible {
+		opacity: 1;
+		transform: translateY(0);
+	  }
 	.btn_two {
-		border: 1px solid #18fef5;
+		border: 1px solid #5e9999;
 		padding: 10px 30px;
 		border-radius: 2px;
-		color: #18fef5;
+		color: #5e9999;
 		margin-left: 20px;
 		transition: 0.3s;
 	}
 	.btn_two:hover{
-	background:#18fef5;
+	background:#5e9999;
 	color:#000;
 	}
 	@media only screen and (max-width:414px){
@@ -316,7 +297,7 @@ body {
 	}
 	#main-menu ul li a:hover,
 	#main-menu ul li a:focus{
-		color: #18fef5;
+		color: #5e9999;
 	}
 	#navigation .header-btn {
 		padding-right: 25px;
@@ -330,7 +311,7 @@ body {
 	
 	#navigation #main-menu ul li ul ,
 	#navigation #main-menu ul li ul li ul {	
-		background: #18fef5;
+		background: #5e9999;
 		-webkit-box-shadow: 0 0 10px 3px rgba(0,0,0,.05);
 		box-shadow: 0 0 10px 3px rgba(0,0,0,.05);
 		left: -55px;
@@ -349,7 +330,7 @@ body {
 		width: 210px;
 		z-index: 999;
 		border-radius: 4px;
-		border-top: 2px solid #18fef5;
+		border-top: 2px solid #5e9999;
 	}
 	#navigation #main-menu .menu-item-has-children {
 		position: relative;
@@ -404,7 +385,7 @@ body {
 	
 	#navigation #main-menu ul li ul li a:hover{
 		color: #000;
-		background-color: #18fef5;
+		background-color: #5e9999;
 		text-decoration: none;
 	}
 	@media only screen and (max-width: 991px){
@@ -535,8 +516,8 @@ body {
 		
 	}
 	.video-play i {
-		background: #18fef5;
-		border: 2px solid #18fef5;
+		background: #5e9999;
+		border: 2px solid #5e9999;
 		color: #000;
 		width: 60px;
 		height: 60px;
@@ -553,8 +534,8 @@ body {
 	 }
 	.video-play:hover i{
 	background: none;
-	color:#18fef5;
-	border:2px solid #18fef5;
+	color:#5e9999;
+	border:2px solid #5e9999;
 	}
 	.video-title {
 		font-weight: 600;
@@ -647,7 +628,7 @@ body {
 		padding: 25px;
 		border-radius: 10px;
 	}
-	.abmv span {color: #18fef5;}
+	.abmv span {color: #5e9999;}
 	.abmv h4{
 	font-weight:600;
 	overflow:hidden;
@@ -734,7 +715,7 @@ body {
 	}
 	.single_service p{margin-bottom: 15px;}
 	.single_service a{
-		color: #18fef5;
+		color: #5e9999;
 		font-weight: 500;
 		font-size: 16px;
 	}
@@ -786,7 +767,7 @@ body {
 			-webkit-border-radius: 50%;
 			-moz-border-radius: 50%;
 			border-radius: 50%;
-			background: #18fef5;
+			background: #5e9999;
 			position: relative;
 			color: #ffffff;
 			font-size: 30px;
@@ -899,7 +880,7 @@ body {
 	.single_port img {width:100%}
 	}
 	.single_port span {
-		background: linear-gradient(90deg,#4AA5F0 0%,#FF0080 100%);
+		background: linear-gradient(90deg, #A8DADC 0%, #6BAA9E 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
@@ -909,13 +890,13 @@ body {
 		margin-top: 5px;
 	}
 	.single_port a {
-		color: #18fef5;
+		color: #5e9999;
 		font-weight: 500;
 		font-size: 16px;
 	}
 	/*END PORTFOLIO*/
 	.marq_text {
-		background: #18fef5;
+		background: #5e9999;
 		color: #000;
 		padding: 30px 0;
 		font-weight: 600;
@@ -954,7 +935,7 @@ body {
 	}
 	.about_project_details{margin-bottom:40px;}
 	.about_project_details ul li b{margin-right:20px;}
-	.about_project_details ul li a{color:#18fef5;}
+	.about_project_details ul li a{color:#5e9999;}
 	.about_project_details ul li{line-height: 36px;}
 	.apd_img img{border-radius: 10px;}
 	/*END PROJECT DETAILS*/
@@ -983,7 +964,7 @@ body {
 		color: transparent;
 	}
 	.single-project2 h2:hover {
-			background: linear-gradient(90deg,#FF0080 0%,#FF8C00 100%);
+			background: linear-gradient(90deg,#5e9999 0%,#142223 100%);
 		-webkit-background-clip: text;
 		-webkit-text-stroke: 0px;
 		-webkit-text-fill-color: transparent;
@@ -1052,7 +1033,7 @@ body {
 	}
 	.pricingTable .pricing-icon{
 			color: #000;
-			background: #18fef5;
+			background: #5e9999;
 			font-size: 36px;
 			line-height:90px;
 			width: 90px;
@@ -1147,7 +1128,7 @@ body {
 		font-size: 20px;
 	}
 	.testimonial_content i {
-		color: #18fef5;
+		color: #5e9999;
 		font-size: 22px;
 	}
 	.testimonial_content p {
@@ -1174,7 +1155,7 @@ body {
 	.owl-controls .owl-page,
 	.owl-controls .owl-buttons div { cursor: pointer }
 	.owl-theme .owl-controls .owl-page span {
-		background-color: #18fef5 !important;
+		background-color: #5e9999 !important;
 		border-radius: 20px;
 		display: block;
 		height: 2px;
@@ -1276,10 +1257,10 @@ body {
 	.subscribe__input:focus{
 	outline:0 none;
 	box-shadow:none;
-	border: 1px solid #18fef5!important;
+	border: 1px solid #5e9999!important;
 	}
 	.subscribe__btn {
-		background-color: #18fef5;
+		background-color: #5e9999;
 		border-radius:100px;
 		color: #000;
 		cursor: pointer;
@@ -1335,7 +1316,7 @@ body {
 		margin-top: 10px;
 	}
 	.blog_btn{
-	color: #18fef5;
+	color: #5e9999;
 	}
 	.blog_btn i{font-size:12px;}
 	.sbd{margin-bottom:30px;}
@@ -1393,11 +1374,11 @@ body {
 		font-weight: 400;
 		text-transform: capitalize;
 	}
-	.single_footer ul li a:hover { color: #18fef5; }
+	.single_footer ul li a:hover { color: #5e9999; }
 	
 	.sf_contact{margin-bottom:30px;overflow: hidden;}
 	.sf_contact span {
-		color: #18fef5;
+		color: #5e9999;
 		font-size: 30px;
 		float: left;
 		margin-top: 5px;
@@ -1447,7 +1428,7 @@ body {
 		transition: 0.3s;
 	}
 	.footer_menu ul li a:hover{
-	color:#18fef5;
+	color:#5e9999;
 	text-decoration: underline;
 	}
 	.social_profile {margin-top:10px;}
@@ -1525,8 +1506,8 @@ body {
 	}
 	.section-top-title ul {}
 	.section-top-title ul li {color: #fff !important;display: inline-block; }
-	.section-top-title ul li a { color: #18fef5!important;font-weight: 600; }
-	.section-top-title ul li a:hover { color: #18fef5!important }
+	.section-top-title ul li a { color: #5e9999!important;font-weight: 600; }
+	.section-top-title ul li a:hover { color: #5e9999!important }
 	/*
 	* ----------------------------------------------------------------------------------------
 	* 14.END SECTION TOP DESIGN
@@ -1591,7 +1572,7 @@ body {
 			.single_address{margin-bottom:30px; }
 	}
 	.single_address i {
-		color: #18fef5;
+		color: #5e9999;
 		font-size: 42px;
 		margin-bottom: 20px;
 		display: inline-block;

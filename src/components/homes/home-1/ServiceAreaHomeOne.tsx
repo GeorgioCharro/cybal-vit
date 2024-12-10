@@ -1,41 +1,8 @@
  
  
 import { Link } from 'react-router-dom';
-import Slider from 'react-slick';
 
 
-
-// slider setting 
-const slider_setting = {
-  speed: 4000,
-  autoplay: true,
-  autoplaySpeed: 0,
-  cssEase: "linear",
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  variableWidth: true,
-  infinite: true,
-  initialSlide: 1,
-  arrows: false,
-  buttons: false,
-  pauseOnFocus: false,
-  pauseOnHover: true,
-};
-
-const slider_data = [
-  "*Access Control Lists*",
-  "*Search Functionalty*",
-  "*legal Disclaimers*",
-  "*Network Seqmenttation*",
-  "*Feedback & Reporting*",
-  "*Access Control Lists*",
-  "*Search Functionalty*",
-  "*legal Disclaimers*",
-  "*Network Seqmenttation*",
-  "*Feedback & Reporting*",
-
-]
- 
 const ServiceAreaHomeOne = () => {
 
 
@@ -85,24 +52,7 @@ const ServiceAreaHomeOne = () => {
         </div>
       </section>
 
-      <div className="marq_text">
-        <div id="supermarquee1">
 
-          <Slider
-            {...slider_setting}
-            className="swiper-container tp-text-slider-4-active"
-          >
-            {slider_data.map((item, i) => (
-              <div key={i}
-                className="me-4">
-                 {item} 
-              </div>
-            ))}
-          </Slider>
-
-
-        </div>
-      </div>
 
     </>
   );
