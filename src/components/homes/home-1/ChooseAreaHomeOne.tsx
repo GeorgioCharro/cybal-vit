@@ -14,7 +14,7 @@ const ChooseAreaHomeOne = () => {
                 <h2>Cyber security skills gap widens as demand for experts continues to soar.</h2>
                 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae justo nullam dictum felis eu pede mollis pretium Inte ger tincid unt cras dapibus.</p>
               </div>
-              <div className="row">
+              <div className="row justify-content-center text-center">
                 <div className="col-lg-4 col-sm-4 col-xs-12 no-padding">
                   <div className="single-project2">
                     <h2 className="counter-num">94%</h2>
