@@ -1,0 +1,25 @@
+
+
+@import "swiper/css/bundle";   
+@import "node_modules/bootstrap/scss/bootstrap.scss"; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+@import "../public/assets/css/animate.css";
+@import "../public/assets/css/themify-icons.css";
+@import "../public/assets/css/magnific-popup.css";
+@import "../public/assets/css/fontawesome.min.css";
+@import "../public/assets/css/jquery-simple-mobilemenu.css";
+@import "../public/assets/css/style.css";
+@import "../public/assets/css/responsive.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Apply Roboto to all elements globally */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
