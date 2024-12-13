@@ -12,7 +12,7 @@ const ChooseAreaHomeOne = () => {
               <div className="ab_content">
                 <span>Why choose us</span>
                 <h2>Cyber security skills gap widens as demand for experts continues to soar.</h2>
-                <p>Lorem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae justo nullam dictum felis eu pede mollis pretium Inte ger tincid unt cras dapibus.</p>
+                <p>As the digital landscape evolves, organizations face a growing challenge in bridging the cybersecurity skills gap. With demand for experts reaching unprecedented levels, staying ahead of threats requires a trusted partner. Our team combines expertise, advanced tools, and personalized solutions to safeguard your data and future-proof your business.</p>
               </div>
               <div className="row justify-content-center text-center">
                 <div className="col-lg-4 col-sm-4 col-xs-12 no-padding">
