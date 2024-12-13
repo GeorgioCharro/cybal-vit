@@ -11,7 +11,7 @@ const FooterOne = () => {
           <div className="row">
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
-                <Link to="/"><img src="assets/img/logo.png" alt="image-here" /></Link>
+                <Link to="/"><img src="assets/img/cybermorph.png" alt="image-here" width={150} /></Link>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
                 <div className="social_profile">
                   <ul>
@@ -47,14 +47,6 @@ const FooterOne = () => {
                   <li><a href="#">Code Inspection</a></li>
                   <li><a href="#">Folder Duplication</a></li>
                 </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6 col-xs-12">
-              <div className="single_footer">
-                <h4>Download App</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
-                <Link to="/"><img src="assets/img/play.png" className="foot_img" alt="image-here" /></Link>
-                <Link to="/"><img src="assets/img/app.png" className="foot_img" alt="image-here" /></Link>
               </div>
             </div>
           </div>

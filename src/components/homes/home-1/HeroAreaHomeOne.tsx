@@ -20,10 +20,7 @@ const HeroAreaHomeOne = () => {
               </div>
               <div className="home_btns">
                 <Link to="/about" className="btn_one">Discover More</Link>
-                <a className="video-play" 
-                onClick={() => setIsVideoOpen(true)}
-                style={{ cursor: "pointer" }} 
-                ><i className="ti-image"></i> <span className="video-title">Video Tour</span></a>
+                
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ import HeaderOne from "../../layouts/headers/HeaderOne";
 import Breadcrumb from "../common/Breadcrumb";
 import ScrollTop from "../common/ScrollTop";
 import BlogArea from "./BlogArea";
-
+import BlogAreaHomeOne from "../homes/home-1/BlogAreaHomeOne";
  
 
 const Blog = () => {
@@ -12,6 +12,7 @@ const Blog = () => {
     <HeaderOne />
     <Breadcrumb title="Latest Blog" subtitle="Blog"  />
     <BlogArea />
+    <BlogAreaHomeOne />
     <FooterOne />  
     <ScrollTop />    
     </>

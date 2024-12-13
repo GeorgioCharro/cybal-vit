@@ -17,8 +17,8 @@ import Blog from "./components/blog";
 import BlogDetails from "./components/blog-details";
 import Contact from "./components/contact";
 import NotFound from "./components/Error";
-
-
+import Why from "./components/why";
+import Partners from "./components/partners"
 
 const router = createBrowserRouter([
   { path: "/", element: <HomeOne /> },
@@ -36,6 +36,8 @@ const router = createBrowserRouter([
   { path: "/blog", element: <Blog /> },
   { path: "/blog-details", element: <BlogDetails /> },
   { path: "/contact", element: <Contact /> },
+  { path: "/why", element: <Why /> },
+  { path: "/partners", element: <Partners /> },
 
 
 

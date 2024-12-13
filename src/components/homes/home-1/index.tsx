@@ -2,20 +2,13 @@ import React from "react";
 import FooterOne from "../../../layouts/footers/FooterOne";
 import HeaderOne from "../../../layouts/headers/HeaderOne";
 import ScrollTop from "../../common/ScrollTop";
-import AboutAreaHomeOne from "./AboutAreaHomeOne";
-import AoutUsAreaHomeOne from "./AoutUsAreaHomeOne";
+import AboutAreaHomeThree from "../home-3/AboutAreaHomeThree";
 import ChooseAreaHomeOne from "./ChooseAreaHomeOne";
-import CounterAreaHomeOne from "./CounterAreaHomeOne";
 import HeroAreaHomeOne from "./HeroAreaHomeOne";
 import NewsletterAreaHomeOne from "./NewsletterAreaHomeOne";
-import PortfolioAreaHomeOne from "./PortfolioAreaHomeOne";
-import PriceAreaHomeOne from "./PriceAreaHomeOne";
-import ServiceAreaHomeOne from "./ServiceAreaHomeOne";
-import TeamAreaHomeOne from "./TeamAreaHomeOne";
-import TestimonialAreaHomeOne from "./TestimonialAreaHomeOne";
 import useFadeInOnScroll from "../../../hooks/useFadeInOnScroll";
-
-
+import ServiceAreaHomeThree from "../home-3/ServiceAreaHomeThree";
+import Pyramid from "../../common/Pyramid";
 interface FadeInSectionProps {
   children: React.ReactNode;
 }
@@ -37,31 +30,17 @@ const HomeOne: React.FC = () => {
         <HeroAreaHomeOne />
       </FadeInSection>
       <FadeInSection>
-        <CounterAreaHomeOne />
+        <Pyramid />
       </FadeInSection>
       <FadeInSection>
-        <AboutAreaHomeOne />
+        <ServiceAreaHomeThree />
       </FadeInSection>
+      
       <FadeInSection>
-        <ServiceAreaHomeOne />
-      </FadeInSection>
-      <FadeInSection>
-        <AoutUsAreaHomeOne />
-      </FadeInSection>
-      <FadeInSection>
-        <PortfolioAreaHomeOne />
+        <AboutAreaHomeThree />
       </FadeInSection>
       <FadeInSection>
         <ChooseAreaHomeOne />
-      </FadeInSection>
-      <FadeInSection>
-        <PriceAreaHomeOne />
-      </FadeInSection>
-      <FadeInSection>
-        <TestimonialAreaHomeOne />
-      </FadeInSection>
-      <FadeInSection>
-        <TeamAreaHomeOne />
       </FadeInSection>
       <FadeInSection>
         <NewsletterAreaHomeOne />

@@ -34,8 +34,7 @@ const ChooseAreaHomeOne = () => {
                   </div>
                 </div> 
                 <div className="skill_btn">
-                  <Link to="/service" className="btn_one">Get your services <i className="ti-arrow-top-right"></i></Link>
-                  <a href="#" className="btn_two">Contact with us <i className="ti-arrow-top-right"></i></a>
+                  <Link to="/contact" className="btn_one">Contact Us <i className="ti-arrow-top-right"></i></Link>
                 </div>
               </div>
             </div>

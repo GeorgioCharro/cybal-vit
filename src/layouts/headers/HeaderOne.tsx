@@ -14,58 +14,38 @@ interface DataType {
 }
 
 const menu_data: DataType[] = [
+
   {
     id: 1,
-    title: 'Home',
-    link: '/',
-    has_dropdown: false,
-  },
-  {
-    id: 2,
     title: 'About',
     link: '/about',
     has_dropdown: false,
   },
   {
-    id: 3,
-    title: 'Services',
-    link: '#',
-    has_dropdown: true,
-    sub_menus: [
-      { title: 'Services', link: '/service' },
-      { title: 'Services Deails', link: '/service-details' },
-    ]
+    id: 5,
+    title: 'Why Us?',
+    link: '/why',
+    has_dropdown: false,
+  },
+  {
+    id: 2,
+    title: 'Blog',
+    link: '/blog',
+    has_dropdown: false,
   },
   {
     id: 4,
-    title: 'Pages',
-    link: '#',
-    has_dropdown: true,
-    sub_menus: [
-      { title: 'Project', link: '/project' },
-      { title: 'Project Details', link: '/project-details' },
-      { title: 'Pricing Plan', link: '/pricing' },
-      { title: 'Team', link: '/team' },
-      { title: 'Faq Page', link: '/faq' },
-      { title: '404', link: '/404' },
-    ]
+    title: 'Partners',
+    link: '/partners',
+    has_dropdown: false,
   },
   {
-    id: 5,
-    title: 'Blog',
-    link: '#',
-    has_dropdown: true,
-    sub_menus: [
-      { title: 'Blog', link: '/blog' },
-      { title: 'Blog Details', link: '/blog-details' },
-    ]
-  },
-  {
-    id: 5,
+    id: 3,
     title: 'Contact',
     link: '/contact',
     has_dropdown: false,
   },
+  
 ]
 
 const HeaderOne = () => {
@@ -93,7 +73,7 @@ const HeaderOne = () => {
           <div className="row">
             <div className="col-20 align-self-center">
               <div className="site-logo">
-                <Link to="/"><img src="assets/img/logo-top.png" alt="" /></Link>
+                <Link to="/"><img src="assets/img/cybermorph.png" alt="" /></Link>
               </div>
             </div>
 
