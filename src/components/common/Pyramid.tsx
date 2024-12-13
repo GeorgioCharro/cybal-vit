@@ -1,5 +1,3 @@
-import React from "react";
-
 const Pyramid = () => {
   return (
     <div className="container py-5">
