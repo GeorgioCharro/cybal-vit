@@ -30,8 +30,11 @@ const ServiceAreaHomeThree = () => {
                 />
                 <h2>Network Security</h2>
                 <p>
-                  Protect your organization's network from unauthorized access,
-                  breaches, and attacks with our cutting-edge solutions.
+                Protecting the integrity and usability of networks.
+                  Examples: Firewalls, Intrusion Detection/Prevention Systems (IDS/IPS), Network Access Control (NAC), VPNs.
+                  Endpoint Security
+                  Securing devices connected to the network.
+                Examples: Endpoint Detection and Response (EDR), Mobile Device Management (MDM), Antivirus/Antimalware.
                 </p>
               </div>
             </div>
@@ -45,14 +48,14 @@ const ServiceAreaHomeThree = () => {
             >
               <div className="single_service">
                 <img
-                  src="assets/img/service5.png"
+                  src="assets/img/service7.png"
                   className="img-fluid"
                   alt="image"
                 />
-                <h2>Data Security</h2>
+                <h2>Cloud Security</h2>
                 <p>
-                  Safeguard sensitive data from cyber threats with robust
-                  encryption, backup, and recovery strategies.
+                Safeguarding cloud environments and assets.
+                Examples: Cloud Access Security Brokers (CASB), Cloud Workload Protection Platforms (CWPP), Secure Web Gateways (SWG).
                 </p>
               </div>
             </div>
@@ -70,15 +73,13 @@ const ServiceAreaHomeThree = () => {
                   className="img-fluid"
                   alt="image"
                 />
-                <h2>App Security</h2>
+                <h2>Application Security</h2>
                 <p>
-                  Ensure your applications are secure by addressing
-                  vulnerabilities and providing real-time protection.
+                Ensuring security during app development and deployment.
+                Examples: Web Application Firewalls (WAF), Runtime Application Self-Protection (RASP), Secure DevOps (DevSecOps).
                 </p>
               </div>
             </div>
-
-            {/* Governance and Risk Services */}
             <div
               className="col-lg-3 col-sm-4 col-xs-12 wow fadeInUp"
               data-wow-duration="1s"
@@ -87,17 +88,18 @@ const ServiceAreaHomeThree = () => {
             >
               <div className="single_service">
                 <img
-                  src="assets/img/service7.png"
+                  src="assets/img/service6.png"
                   className="img-fluid"
                   alt="image"
                 />
-                <h2>Governance and Risk Services</h2>
+                <h2>Application Security</h2>
                 <p>
-                  Manage compliance, mitigate risks, and ensure governance with
-                  comprehensive security frameworks and strategies.
+                Ensuring security during app development and deployment.
+                Examples: Web Application Firewalls (WAF), Runtime Application Self-Protection (RASP), Secure DevOps (DevSecOps).
                 </p>
               </div>
             </div>
+
           </div>
         </div>
       </section>

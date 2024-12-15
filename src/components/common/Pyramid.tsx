@@ -7,17 +7,14 @@ const Pyramid = () => {
           <img
             src="assets/img/pyramid.png"
             alt="Pyramid"
-            className="img-fluid"
-            style={{ maxWidth: "400px", objectFit: "contain" }}
+            className="img-fluid pyramid-image"
           />
         </div>
 
         {/* Text Content */}
         <div className="col-12 col-md-6 order-0 order-md-1">
           <div className="section-title">
-            <span>
-              Trust your cyber company
-            </span>
+            <span>Trust your cyber company</span>
             <h2 style={{ fontSize: "24px", fontWeight: "bold", color: "#fff" }}>
               At Cybermorph, our mission is to empower businesses with robust
               cybersecurity solutions, ensuring trust, safety, and resilience
@@ -25,10 +22,7 @@ const Pyramid = () => {
             </h2>
           </div>
           <div className="mt-4">
-            <h4
-              className="d-flex align-items-center"
-              style={{ fontSize: "18px", fontWeight: "bold", color: "blue" }}
-            >
+            <h4 className="d-flex align-items-center" style={{ fontSize: "18px", fontWeight: "bold" }}>
               <img
                 src="assets/img/check.png"
                 alt=""
@@ -43,10 +37,7 @@ const Pyramid = () => {
             </p>
           </div>
           <div className="mt-4">
-            <h4
-              className="d-flex align-items-center"
-              style={{ fontSize: "18px", fontWeight: "bold", color: "yellow" }}
-            >
+            <h4 className="d-flex align-items-center" style={{ fontSize: "18px", fontWeight: "bold" }}>
               <img
                 src="assets/img/check.png"
                 alt=""
@@ -61,10 +52,7 @@ const Pyramid = () => {
             </p>
           </div>
           <div className="mt-4">
-            <h4
-              className="d-flex align-items-center"
-              style={{ fontSize: "18px", fontWeight: "bold", color: "#FF474C" }}
-            >
+            <h4 className="d-flex align-items-center" style={{ fontSize: "18px", fontWeight: "bold" }}>
               <img
                 src="assets/img/check.png"
                 alt=""
@@ -80,6 +68,26 @@ const Pyramid = () => {
           </div>
         </div>
       </div>
+
+      {/* CSS for Responsiveness */}
+      <style>{`
+        .pyramid-image {
+          max-width: 400px; /* Default for large screens */
+          height: auto;
+        }
+
+        @media (max-width: 768px) {
+          .pyramid-image {
+            max-width: 200px; /* Smaller size for small screens */
+          }
+        }
+
+        @media (max-width: 576px) {
+          .pyramid-image {
+            max-width: 150px; /* Extra small screens */
+          }
+        }
+      `}</style>
     </div>
   );
 };

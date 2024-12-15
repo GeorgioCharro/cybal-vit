@@ -10,7 +10,7 @@ const Why = () => {
   return (
     <>
       <HeaderOne />
-      <Breadcrumb title="Why Us?" subtitle="why" />
+      <Breadcrumb title="Why CyberMorph" subtitle="why" />
       <ChooseAreaHomeOne />
       <Pyramid />
       <FooterOne />

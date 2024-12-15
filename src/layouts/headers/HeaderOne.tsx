@@ -23,7 +23,7 @@ const menu_data: DataType[] = [
   },
   {
     id: 5,
-    title: 'Why Us?',
+    title: 'Why CyberMorph',
     link: '/why',
     has_dropdown: false,
   },
