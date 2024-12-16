@@ -14,7 +14,6 @@ const Pyramid = () => {
         {/* Text Content */}
         <div className="col-12 col-md-6 order-0 order-md-1">
           <div className="section-title">
-            <span>Trust your cyber company</span>
             <h2 style={{ fontSize: "24px", fontWeight: "bold", color: "#fff" }}>
               At Cybermorph, our mission is to empower businesses with robust
               cybersecurity solutions, ensuring trust, safety, and resilience

@@ -19,7 +19,7 @@ import Contact from "./components/contact";
 import NotFound from "./components/Error";
 import Why from "./components/why";
 import Partners from "./components/partners"
-
+import Vendors from "./components/vendors";
 const router = createBrowserRouter([
   { path: "/", element: <HomeOne /> },
   { path: "/home-2", element: <HomeTwo /> },
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
   { path: "/contact", element: <Contact /> },
   { path: "/why", element: <Why /> },
   { path: "/partners", element: <Partners /> },
-
+  { path: "/vendors", element: <Vendors /> },
 
 
   { path: "*", element: <NotFound /> },

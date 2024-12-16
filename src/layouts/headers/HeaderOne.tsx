@@ -22,21 +22,27 @@ const menu_data: DataType[] = [
     has_dropdown: false,
   },
   {
-    id: 5,
+    id: 2,
     title: 'Why CyberMorph',
     link: '/why',
     has_dropdown: false,
   },
   {
-    id: 2,
-    title: 'Blog',
-    link: '/blog',
+    id: 3,
+    title: 'Vendors',
+    link: '/vendors',
     has_dropdown: false,
   },
   {
     id: 4,
     title: 'Partners',
     link: '/partners',
+    has_dropdown: false,
+  },
+  {
+    id: 2,
+    title: 'Blog',
+    link: '/blog',
     has_dropdown: false,
   },
   {

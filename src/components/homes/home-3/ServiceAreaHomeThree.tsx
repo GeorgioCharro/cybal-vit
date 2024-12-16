@@ -88,14 +88,14 @@ const ServiceAreaHomeThree = () => {
             >
               <div className="single_service">
                 <img
-                  src="assets/img/service6.png"
+                  src="assets/img/service5.png"
                   className="img-fluid"
                   alt="image"
                 />
-                <h2>Application Security</h2>
+                <h2>Endpoint Security</h2>
                 <p>
-                Ensuring security during app development and deployment.
-                Examples: Web Application Firewalls (WAF), Runtime Application Self-Protection (RASP), Secure DevOps (DevSecOps).
+                ecuring devices connected to the network.
+                Examples: Endpoint Detection and Response (EDR), Mobile Device Management (MDM), Antivirus/Antimalware.
                 </p>
               </div>
             </div>
