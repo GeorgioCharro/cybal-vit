@@ -1,42 +1,22 @@
-import { motion } from "framer-motion";
-
 const AboutAreaHomeThree = () => {
   return (
     <section className="py-5 text-light">
       <div className="container">
         {/* Top Section - Heading and Mission */}
-        <motion.div
-          className="text-center mb-5"
-          initial={{ opacity: 0, y: -50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-        >
+        <div className="text-center mb-5">
           <div className="section-title">
-                <span>Our Mission</span>
-              </div>
-        </motion.div>
+            <span>Our Mission</span>
+          </div>
+        </div>
 
         <div className="row d-flex align-items-start">
           {/* Left Section - Icon/Image */}
-          <motion.div
-            className="col-lg-6 text-center mb-4 mb-lg-0"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}
-          >
-            <div
-              className="d-flex justify-content-center align-items-center mx-auto position-relative responsive-container"
-            >
+          <div className="col-lg-6 text-center mb-4 mb-lg-0">
+            <div className="d-flex justify-content-center align-items-center mx-auto position-relative responsive-container">
               <img
                 src="assets/img/cybermorphlock.png"
                 alt="Cyber Security Logo"
                 className="img-fluid responsive-icon"
-                style={{
-                  position: "absolute",
-                  zIndex: "2",
-                }}
               />
               {/* Dotted Circle */}
               <div
@@ -44,21 +24,13 @@ const AboutAreaHomeThree = () => {
                 style={{
                   borderRadius: "100%",
                   border: "5px dotted #fff",
-                  animation: "spin 10s linear infinite",
-                  zIndex: "1",
                 }}
               ></div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Right Section - Content */}
-          <motion.div
-            className="col-lg-6"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}
-          >
+          <div className="col-lg-6">
             <div className="ab_content">
               <p className="text-lg">
                 Our mission is simple yet impactful: to revolutionize how businesses safeguard their assets and embrace AI-driven innovation. By combining cutting-edge cybersecurity solutions with transformative AI technologies, we help our clients build resilience, adapt to change, and unlock new opportunities in a rapidly evolving landscape.
@@ -84,21 +56,12 @@ const AboutAreaHomeThree = () => {
                 </li>
               </ul>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
 
       {/* Inline Styles */}
       <style>{`
-        @keyframes spin {
-          0% {
-            transform: rotate(0deg);
-          }
-          100% {
-            transform: rotate(360deg);
-          }
-        }
-
         /* Default Container and Circle Size */
         .responsive-container {
           width: 350px;
