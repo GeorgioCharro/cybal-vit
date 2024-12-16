@@ -61,12 +61,13 @@ const Pyramid = () => {
                 className="me-2"
                 style={{ width: "20px", height: "20px" }}
               />
-              Regions
+              Vendors
             </h4>
             <p className="small">
-              At the top of the pyramid, regions represent our global reach and
-              impact, showcasing Cybermorph's ability to deliver security
-              solutions worldwide.
+              At the top of the pyramid, our vendors play a critical role by delivering 
+              advanced technologies that solve our customers' biggest challenges. From 
+              cybersecurity solutions to AI-driven tools, we ensure businesses are equipped 
+              to secure, scale, and thrive in an increasingly complex digital world.
             </p>
           </div>
         </div>
