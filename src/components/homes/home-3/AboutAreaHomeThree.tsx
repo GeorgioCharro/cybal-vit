@@ -11,7 +11,11 @@ const AboutAreaHomeThree = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-        ></motion.div>
+        >
+          <div className="section-title">
+                <span>Our Mission</span>
+              </div>
+        </motion.div>
 
         <div className="row d-flex align-items-start">
           {/* Left Section - Icon/Image */}
