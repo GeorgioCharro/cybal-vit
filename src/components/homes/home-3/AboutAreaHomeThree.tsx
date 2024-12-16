@@ -30,7 +30,7 @@ const AboutAreaHomeThree = () => {
               className="d-flex justify-content-center align-items-center mx-auto position-relative responsive-container"
             >
               <img
-                src="assets/img/cybershaded.png"
+                src="assets/img/cybermorphlock.png"
                 alt="Cyber Security Logo"
                 className="img-fluid responsive-icon"
                 style={{

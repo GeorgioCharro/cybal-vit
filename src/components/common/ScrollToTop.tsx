@@ -28,7 +28,7 @@ const ScrollToTop = () => {
   return (
     <>
       <div id="topcontrol" className="topcontrol" onClick={scrollTop}
-        style={{ position: "fixed", bottom: "5px", right: "5px", opacity: sticky ? "1" : "0", cursor: "pointer" }}>
+        style={{ position: "fixed", bottom: "5px", right: "5px", opacity: sticky ? "1" : "0", cursor: "pointer", zIndex:"999999" }}>
         <i className="ti-arrow-up scrolltop"></i>
       </div>
     </>
