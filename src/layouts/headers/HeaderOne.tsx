@@ -102,9 +102,6 @@ const HeaderOne = () => {
               </nav>
             </div>
 
-            <div className="col-20 d-none d-xl-block text-end align-self-center">
-              <Link to="/contact" className="btn_one">Get started now</Link>
-            </div>
 
             <div id="sm_menu_ham" onClick={handleActive} className={`${open ? 'open' : ''}`}>
               <span></span>
