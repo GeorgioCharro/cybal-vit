@@ -8,8 +8,7 @@ const ServiceAreaHomeThree = () => {
               <div className="section-title">
                 <span>Our Portfolio</span>
                 <h2>
-                  What we do for your <br />
-                  Cyber security solutions
+                Technology solutions offering 
                 </h2>
               </div>
             </div>
@@ -32,9 +31,6 @@ const ServiceAreaHomeThree = () => {
                 <p>
                 Protecting the integrity and usability of networks.
                   Examples: Firewalls, Intrusion Detection/Prevention Systems (IDS/IPS), Network Access Control (NAC), VPNs.
-                  Endpoint Security
-                  Securing devices connected to the network.
-                Examples: Endpoint Detection and Response (EDR), Mobile Device Management (MDM), Antivirus/Antimalware.
                 </p>
               </div>
             </div>
@@ -94,7 +90,7 @@ const ServiceAreaHomeThree = () => {
                 />
                 <h2>Endpoint Security</h2>
                 <p>
-                ecuring devices connected to the network.
+                  Securing devices connected to the network.
                 Examples: Endpoint Detection and Response (EDR), Mobile Device Management (MDM), Antivirus/Antimalware.
                 </p>
               </div>

@@ -1,7 +1,6 @@
 interface FeatureCardProps {
   title: string;
   description: string;
-  examples: string;
 }
 
 const ChooseAreaHomeOne: React.FC = () => {
@@ -38,22 +37,18 @@ const ChooseAreaHomeOne: React.FC = () => {
               <FeatureCard
                 title="Threat Intelligence"
                 description="Gaining insights into potential threats."
-                examples="TIP, SIEM, SOAR."
               />
               <FeatureCard
                 title="Incident Response and Management"
                 description="Detecting, analyzing, and responding to incidents."
-                examples="Incident Response Platforms, Forensics Tools."
               />
               <FeatureCard
                 title="Security Awareness and Training"
                 description="Educating users to reduce human error."
-                examples="Phishing Simulation, Awareness Platforms."
               />
               <FeatureCard
                 title="AI-Powered Cybersecurity"
                 description="Enhancing threat detection, response, and prevention using AI."
-                examples="AI-driven Threat Intelligence, Autonomous Response Systems."
               />
             </div>
             {/* Right Column */}
@@ -61,22 +56,18 @@ const ChooseAreaHomeOne: React.FC = () => {
               <FeatureCard
                 title="Vulnerability and Risk Management"
                 description="Identifying, assessing, and mitigating risks."
-                examples="Vulnerability Scanners, Risk Assessment Tools."
               />
               <FeatureCard
                 title="Cyber Threat Hunting"
                 description="Proactively identifying and mitigating hidden threats."
-                examples="Threat Hunting Platforms, Behavioral Analytics."
               />
               <FeatureCard
                 title="Compliance and Governance"
                 description="Ensuring adherence to regulations and policies."
-                examples="Compliance Platforms, Audit Tools."
               />
               <FeatureCard
                 title="Machine Learning & Predictive Analytics"
                 description="Using machine learning to forecast future trends."
-                examples="Fraud Detection, Predictive Maintenance."
               />
             </div>
           </div>
@@ -143,13 +134,10 @@ const ChooseAreaHomeOne: React.FC = () => {
 };
 
 // Reusable FeatureCard Component with TypeScript Props
-const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, examples }) => (
+const FeatureCard: React.FC<FeatureCardProps> = ({ title, description }) => (
   <div className="feature-card">
     <h4>{title}</h4>
     <p>{description}</p>
-    <p>
-      <strong>Examples:</strong> {examples}
-    </p>
   </div>
 );
 

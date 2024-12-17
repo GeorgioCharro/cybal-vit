@@ -19,21 +19,17 @@ const HeroAreaHomeOne = () => {
           <div className="row">
             <div className="col-lg-7 col-sm-12 col-xs-12">
               <div className="hero-text ht_top">
-                <h1>Welcome to CyberMorph Technologies, where innovation meets security.</h1>
+                <h1>Welcome to CyberMorph Technologies</h1><br />
+                <h2 className='mb-3'>where innovation meets security.</h2>
 
                 {/* Full Subtitle for Large Screens */}
                 <p className="d-none d-md-block">
-                  We specialize in delivering state of the art Cybersecurity and Artificial
-                  Intelligence solutions tailored to empower businesses across the region. At
-                  CyberMorph, we redefine the future of digital resilience and intelligence,
-                  ensuring that our partners & customers thrive in an ever evolving technological
-                  landscape.
+                CyberMorph specialize in providing cutting-edge Cybersecurity and Artificial Intelligence solutions designed to empower businesses throughout the region.
                 </p>
 
                 {/* Condensed Subtitle for Small Screens */}
                 <p className="d-block d-md-none">
-                  We specialize in delivering state of the art Cybersecurity and Artificial
-                  Intelligence solutions tailored to empower businesses across the region.
+                CyberMorph specialize in providing cutting-edge Cybersecurity and Artificial Intelligence solutions designed to empower businesses throughout the region.
                 </p>
               </div>
               <div className="home_btns">
