@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 
-
-
 const FooterOne = () => {
   return (
     <>
@@ -12,7 +10,12 @@ const FooterOne = () => {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
                 <Link to="/"><img src="assets/img/cybermorph.png" alt="image-here" width={150} /></Link>
-                <p>At CyberMorph, we specialize in delivering cutting-edge cybersecurity solutions to protect your business assets. Our AI-driven technologies ensure robust security, adaptability, and innovation in an evolving digital landscape.</p>
+                <div className="">
+                  <p><strong>Meydan FZ</strong></p>
+                  <p>Dubai, United Arab Emirates</p>
+                  <p><a href="mailto:info@cybermorph.ai" style={{ color: "#fff" }}>info@cybermorph.ai</a></p>
+                  <p><a href="http://www.cybermorph.ai" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>www.cybermorph.ai</a></p>
+                </div>
                 <div className="social_profile">
                   <ul>
                     <li><a href="#" className="f_facebook"><i className="ti-facebook" title="Facebook"></i></a></li>

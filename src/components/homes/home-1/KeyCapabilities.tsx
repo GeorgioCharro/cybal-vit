@@ -32,14 +32,15 @@ const KeyCapabilities: React.FC = () => {
         <div className="row mb-5">
           <div className="col-12 text-center">
             <h2 className="fw-bold" style={{ letterSpacing: "1px" }}>
-              KEY CAPABILITIES
+              Key Capabilities
             </h2>
           </div>
         </div>
 
         {/* Content Cards */}
         <div className="row">
-          {capabilities.map((capability, index) => (
+          {/* First three cards */}
+          {capabilities.slice(0, 3).map((capability, index) => (
             <div className="col-md-4 d-flex align-items-stretch" key={index}>
               <CapabilityCard
                 title={capability.title}
@@ -47,6 +48,16 @@ const KeyCapabilities: React.FC = () => {
               />
             </div>
           ))}
+
+          {/* Fourth card */}
+          <div className="col-12 d-flex justify-content-center mt-4">
+            <div className="col-md-4 d-flex align-items-stretch">
+              <CapabilityCard
+                title={capabilities[3].title}
+                description={capabilities[3].description}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
