@@ -2,10 +2,10 @@ const AboutAreaHomeThree = () => {
   return (
     <section className="py-5 text-light">
       <div className="container">
-        {/* Top Section - Heading */}
+        {/* Top Section - Heading and Mission */}
         <div className="text-center mb-5">
           <div className="section-title">
-            <span>About the CyberMorph Logo</span>
+            <span>Our Mission</span>
           </div>
         </div>
 
@@ -15,7 +15,7 @@ const AboutAreaHomeThree = () => {
             <div className="d-flex justify-content-center align-items-center mx-auto position-relative responsive-container">
               <img
                 src="assets/img/cybermorphlock.png"
-                alt="CyberMorph Logo"
+                alt="Cyber Security Logo"
                 className="img-fluid responsive-icon"
               />
               {/* Dotted Circle */}
@@ -33,40 +33,26 @@ const AboutAreaHomeThree = () => {
           <div className="col-lg-6">
             <div className="ab_content">
               <p className="text-lg">
-                The CyberMorph logo visually represents themes related to cybersecurity, transformation, and technology. Here’s a breakdown of its meaning:
+                Our mission is simple yet impactful: to revolutionize how businesses safeguard their assets and embrace AI-driven innovation. By combining cutting-edge cybersecurity solutions with transformative AI technologies, we help our clients build resilience, adapt to change, and unlock new opportunities in a rapidly evolving landscape.
               </p>
               <ul className="list-unstyled">
                 <li className="mb-3 mt-3">
                   <strong style={{ fontSize: "1.25rem", color: "#ffffff" }}>
-                    Shield-Like Structure:
-                  </strong>
-                  The overall shape still resembles a shield, symbolizing protection and security, which are the core elements of cybersecurity.
+                    Advanced Cybersecurity Solutions:
+                  </strong>{" "}
+                  Proactively protect your business with next-generation defense strategies.
                 </li>
                 <li className="mb-3">
                   <strong style={{ fontSize: "1.25rem", color: "#ffffff" }}>
-                    Data Nodes Representation:
-                  </strong>
-                  Instead of generic network nodes, the interconnected dots now represent key data nodes in cybersecurity:
-                  <ul className="list-unstyled ms-3">
-                    <li><i className="bi bi-diagram-3"></i> <strong>Network</strong></li>
-                    <li><i className="bi bi-shield-lock"></i> <strong>Endpoint</strong></li>
-                    <li><i className="bi bi-cloud"></i> <strong>Cloud</strong></li>
-                    <li><i className="bi bi-window"></i> <strong>Application</strong></li>
-                    <li><i className="bi bi-person"></i> <strong>End User</strong></li>
-                  </ul>
-                  This highlights CyberMorph’s comprehensive coverage of all critical digital areas that need protection.
-                </li>
-                <li className="mb-3">
-                  <strong style={{ fontSize: "1.25rem", color: "#ffffff" }}>
-                    Central Lock Icon:
-                  </strong>
-                  At the center of the shield is a lock symbol, representing security, trust, and protection of data across these interconnected nodes.
+                    AI-Driven Business Transformation:
+                  </strong>{" "}
+                  Harness the power of artificial intelligence to drive innovation and efficiency.
                 </li>
                 <li>
                   <strong style={{ fontSize: "1.25rem", color: "#ffffff" }}>
-                    Connections Between Nodes:
-                  </strong>
-                  The lines connecting the nodes emphasize the interdependency of these data points in a secure and well-structured digital ecosystem.
+                    Customized Consulting and Support:
+                  </strong>{" "}
+                  Tailored guidance and expert services designed to meet your unique needs.
                 </li>
               </ul>
             </div>
