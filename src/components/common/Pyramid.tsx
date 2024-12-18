@@ -12,43 +12,37 @@ const Pyramid = () => {
               At CyberMorph Technologies, our mission is clear and transformative:
             </h2>
             <h5 className="text-center text-md-start">
-              We help businesses protect critical assets and harness AI innovation
-              by integrating advanced cybersecurity and AI strategies, enabling
-              resilience, adaptability, and growth in a fast-paced digital world.
+              We empower businesses by strengthening their cybersecurity posture, fostering innovation, and driving success through collaboration with customers, partners, and vendors.
             </h5>
           </div>
 
-          {/* Enumerated Content */}
+          {/* Customers */}
           <div>
             <h4 className="d-flex align-items-center mb-2 fw-bold numbered-title">
-              <span className="me-2 number">1.</span> Advanced Cybersecurity Solutions
+              <span className="me-2 number">1.</span> Customers
             </h4>
             <p className="small">
-              Stay ahead of threats with our next-generation defense strategies.
-              We deliver proactive solutions that safeguard your infrastructure,
-              data, and operations against an ever-evolving threat landscape.
+              Representing the foundation of our pyramid, our customers are the cornerstone of CyberMorph's success. We deliver personalized solutions to safeguard their digital environments.
             </p>
           </div>
 
+          {/* Partners */}
           <div className="mt-4">
             <h4 className="d-flex align-items-center mb-2 fw-bold numbered-title">
-              <span className="me-2 number">2.</span> AI-Driven Business Transformation
+              <span className="me-2 number">2.</span> Partners
             </h4>
             <p className="small">
-              Unlock the full potential of your organization with AI-powered tools
-              that drive innovation, optimize efficiency, and deliver actionable
-              insights to fuel growth.
+              Positioned in the middle of the pyramid, our partners strengthen our ecosystem, enabling collaboration and innovation to provide cutting-edge cybersecurity solutions.
             </p>
           </div>
 
+          {/* Vendors */}
           <div className="mt-4">
             <h4 className="d-flex align-items-center mb-2 fw-bold numbered-title">
-              <span className="me-2 number">3.</span> Customized Consulting and Expert Support
+              <span className="me-2 number">3.</span> Vendors
             </h4>
             <p className="small">
-              Our team offers personalized guidance, specialized services, and
-              hands-on expertise to address your unique business challenges. From
-              strategy to implementation, we are your trusted partner in success.
+              At the top of the pyramid, our vendors play a critical role by delivering advanced technologies that solve our customers' biggest challenges. From cybersecurity solutions to AI-driven tools, we ensure businesses are equipped to secure, scale, and thrive in an increasingly complex digital world.
             </p>
           </div>
         </div>

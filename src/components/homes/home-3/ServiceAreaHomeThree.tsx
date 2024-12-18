@@ -6,8 +6,8 @@ const ServiceAreaHomeThree = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-6 col-xs-12">
               <div className="section-title">
-                <h2>
-                Technology solutions offering 
+                <h2 className="text-lg-nowrap">
+                  Technology solutions offering
                 </h2>
               </div>
             </div>
@@ -28,8 +28,7 @@ const ServiceAreaHomeThree = () => {
                 />
                 <h2>Network Security</h2>
                 <p>
-                Protecting the integrity and usability of networks.
-                  
+                  We help secure your critical network infrastructure to ensure data integrity, availability, and confidentiality. Our solutions address modern threats while enabling secure and efficient operations.
                 </p>
               </div>
             </div>
@@ -49,8 +48,7 @@ const ServiceAreaHomeThree = () => {
                 />
                 <h2>Cloud Security</h2>
                 <p>
-                Safeguarding cloud environments and assets.
-                
+                  Our cloud security solutions ensure the protection of your cloud infrastructure, data, and applications while maintaining compliance and visibility across hybrid and multi-cloud environments.
                 </p>
               </div>
             </div>
@@ -70,8 +68,7 @@ const ServiceAreaHomeThree = () => {
                 />
                 <h2>Application Security</h2>
                 <p>
-                Ensuring security during app development and deployment.
-               
+                  We secure your applications across their entire lifecycle—from development to production—protecting against vulnerabilities, misconfigurations, and emerging attacks.
                 </p>
               </div>
             </div>
@@ -89,15 +86,20 @@ const ServiceAreaHomeThree = () => {
                 />
                 <h2>Endpoint Security</h2>
                 <p>
-                  Securing devices connected to the network.
-                
+                  We secure your endpoints—laptops, servers, and mobile devices—to defend against advanced cyber threats and ensure operational resilience.
                 </p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
+      <style>{`
+        @media (min-width: 992px) {
+          .text-lg-nowrap {
+            white-space: nowrap;
+          }
+        }
+      `}</style>
     </>
   );
 };

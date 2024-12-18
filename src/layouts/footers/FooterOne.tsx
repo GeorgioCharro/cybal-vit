@@ -43,12 +43,12 @@ const FooterOne = () => {
               <div className="single_footer">
                 <h4>Our services</h4>
                 <ul>
-                  <li><a href="#">Network protection</a></li>
-                  <li><a href="#">Computer security</a></li>
-                  <li><a href="#">Cyber solution</a></li>
-                  <li><a href="#">Locker security</a></li>
-                  <li><a href="#">Code Inspection</a></li>
-                  <li><a href="#">Folder Duplication</a></li>
+                  <li><a href="#">Network Protection</a></li>
+                  <li><a href="#">Cloud Security</a></li>
+                  <li><a href="#">Applications Security</a></li>
+                  <li><a href="#">Endpoint security</a></li>
+                  <li><a href="#">Professional Services</a></li>
+                  <li><a href="#">Security Awareness & Training</a></li>
                 </ul>
               </div>
             </div>
