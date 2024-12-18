@@ -7,7 +7,6 @@ import ChooseAreaHomeOne from "./ChooseAreaHomeOne";
 import HeroAreaHomeOne from "./HeroAreaHomeOne";
 import NewsletterAreaHomeOne from "./NewsletterAreaHomeOne";
 import useFadeInOnScroll from "../../../hooks/useFadeInOnScroll";
-import ServiceAreaHomeThree from "../home-3/ServiceAreaHomeThree";
 import Pyramid from "../../common/Pyramid";
 interface FadeInSectionProps {
   children: React.ReactNode;
@@ -29,19 +28,18 @@ const HomeOne: React.FC = () => {
       <FadeInSection>
         <HeroAreaHomeOne />
       </FadeInSection>
-      <FadeInSection>
-        <Pyramid />
-      </FadeInSection>
-      <FadeInSection>
-        <ServiceAreaHomeThree />
-      </FadeInSection>
-      
-      <FadeInSection>
+            <FadeInSection>
         <AboutAreaHomeThree />
       </FadeInSection>
       <FadeInSection>
+        <Pyramid />
+      </FadeInSection>     
+       <FadeInSection>
         <ChooseAreaHomeOne />
       </FadeInSection>
+      
+
+
       <FadeInSection>
         <NewsletterAreaHomeOne />
       </FadeInSection>

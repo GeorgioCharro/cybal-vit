@@ -12,7 +12,7 @@ const FooterOne = () => {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
                 <Link to="/"><img src="assets/img/cybermorph.png" alt="image-here" width={150} /></Link>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
+                <p>At CyberMorph, we specialize in delivering cutting-edge cybersecurity solutions to protect your business assets. Our AI-driven technologies ensure robust security, adaptability, and innovation in an evolving digital landscape.</p>
                 <div className="social_profile">
                   <ul>
                     <li><a href="#" className="f_facebook"><i className="ti-facebook" title="Facebook"></i></a></li>

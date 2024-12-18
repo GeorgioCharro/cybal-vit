@@ -1,3 +1,5 @@
+import KeyCapabilities from "./KeyCapabilities";
+import ServiceAreaHomeThree from "../home-3/ServiceAreaHomeThree";
 interface FeatureCardProps {
   title: string;
   description: string;
@@ -19,17 +21,19 @@ const ChooseAreaHomeOne: React.FC = () => {
           {/* Header */}
           <div className="row text-center mb-5">
             <div className="col-12 section-title">
-              <span>Why choose us</span>
-              <h2>
-              Comprehensive Solutions For A Safer Digital World
-              </h2>
-              <p className="lead mt-3">
-                As cyber threats become more sophisticated, organizations require a holistic
-                approach to mitigate risks. Our expertise ensures your business stays secure
-                and compliant.
+              <span>Why Choose CyberMorph</span>
+              {/* New Paragraph */}
+              <p className="lead mx-auto" style={{ marginTop: "10px" }}>
+                At CyberMorph, we differentiate ourselves from competitors through our 
+                AI-driven approach, deep threat intelligence, and customer-centric 
+                strategies. We provide proactive solutions, blending cutting-edge 
+                technologies with expert insights to ensure unparalleled cybersecurity 
+                protection.
               </p>
+              <KeyCapabilities />
             </div>
           </div>
+          <ServiceAreaHomeThree />
           {/* Feature Cards */}
           <div className="row">
             {/* Left Column */}
