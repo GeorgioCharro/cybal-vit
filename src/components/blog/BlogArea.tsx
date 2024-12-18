@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 interface BlogAreaProps {
-  hide: boolean; // Boolean prop to control visibility
+  hide?: boolean; // Boolean prop to control visibility
 }
 
 const BlogArea: React.FC<BlogAreaProps> = () => {
