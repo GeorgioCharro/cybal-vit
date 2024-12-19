@@ -16,7 +16,7 @@ const vendors: Vendor[] = [
   {
     name: 'FrontierZero',
     logoSrc: 'assets/img/frontierZero.svg',
-    link: 'https://www.frontierzero.io',
+    link: 'https://www.frontierzero.io?ref=cybermorph',
   },
   {
     name: 'BitSight',
