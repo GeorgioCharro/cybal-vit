@@ -33,7 +33,7 @@ const AboutAreaHomeThree = () => {
           <div className="col-lg-6">
             <div className="ab_content">
               <p className="text-lg">
-                Our mission is simple yet impactful: to revolutionize how businesses safeguard their assets and embrace AI-driven innovation. By combining cutting-edge cybersecurity solutions with transformative AI technologies, we help our clients build resilience, adapt to change, and unlock new opportunities in a rapidly evolving landscape.
+              At CyberMorph Technologies, our mission is clear and transformative: to redefine how businesses protect their critical assets and embrace the potential of AI-driven innovation. By integrating advanced cybersecurity strategies with cutting-edge artificial intelligence, we empower organizations to strengthen their resilience, adapt to dynamic challenges, and seize new opportunities in today’s fast-paced digital world.
               </p>
               <ul className="list-unstyled">
                 <li className="mb-3 mt-3">

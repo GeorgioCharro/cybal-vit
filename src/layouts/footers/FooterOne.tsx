@@ -33,8 +33,6 @@ const FooterOne = () => {
                   <li><a href="#">About us</a></li>
                   <li><a href="#">Blog & news</a></li>
                   <li><a href="#">Our Portfolio</a></li>
-                  <li><a href="#">Pricing plan</a></li>
-                  <li><a href="#">Asked Question</a></li>
                   <li><a href="#">Contact us</a></li>
                 </ul>
               </div>
@@ -47,8 +45,6 @@ const FooterOne = () => {
                   <li><a href="#">Cloud Security</a></li>
                   <li><a href="#">Applications Security</a></li>
                   <li><a href="#">Endpoint security</a></li>
-                  <li><a href="#">Professional Services</a></li>
-                  <li><a href="#">Security Awareness & Training</a></li>
                 </ul>
               </div>
             </div>

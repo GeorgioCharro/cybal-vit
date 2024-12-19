@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Pyramid = () => {
   return (
     <div className="container py-5">
@@ -47,37 +49,104 @@ const Pyramid = () => {
           </div>
         </div>
 
-        {/* Pyramid Image */}
-        <div className="col-12 col-md-6 order-1 order-md-1 d-flex justify-content-center mt-4 mt-md-0">
+        {/* Pyramid Image with Rotating Text */}
+        <div className="col-12 col-md-6 order-1 order-md-1 d-flex justify-content-center position-relative mt-4 mt-md-0">
+          {/* Rotating Text */}
+          <motion.div
+            className="rotating-circle"
+            initial={{ rotate: 0 }}
+            animate={{ rotate: 360 }}
+            transition={{ repeat: Infinity, duration: 6, ease: "linear" }}
+          >
+            <span className="rotating-text text-white">CYBERMORPH</span>
+          </motion.div>
           <img
             src="assets/img/pyramid.png"
             alt="Pyramid"
-            className="img-fluid"
-            style={{ maxWidth: "80%", height: "auto" }}
+            className="img-fluid pyramid-image"
           />
         </div>
       </div>
 
       {/* Inline Styles */}
       <style>{`
-        /* Numbered Titles */
-        .numbered-title {
+        /* Default Rotating Circle */
+        .rotating-circle {
+          position: absolute;
+          width: 300px; /* Default size */
+          height: 300px;
+          border-radius: 50%;
           display: flex;
+          justify-content: center;
           align-items: center;
+          top: calc(50% - 150px);
+          left: calc(50% - 150px);
         }
 
-        .number {
-          font-size: 1.5rem; /* Number Size */
-          font-weight: bold;
-          color: #00e5ff; /* Cyan color matching the checkmark */
+        .rotating-text {
+          position: absolute;
+          top: -20px; /* Position text above the circle */
+          left: 50%;
+          transform: translateX(-50%);
+          color: #00e5ff;
+          font-weight: bolder;
+          font-size: 1.2rem; /* Default font size */
+          white-space: nowrap;
         }
 
-        @media (max-width: 576px) {
-          .number {
-            font-size: 1.2rem; /* Reduce size for small screens */
+        /* Large Screens */
+        @media (min-width: 1200px) {
+          .rotating-circle {
+            width: 500px; /* Larger size */
+            height: 500px;
+            top: calc(50% - 250px);
+            left: calc(50% - 250px);
           }
-          .numbered-title {
-            font-size: 1rem; /* Make titles smaller on small screens */
+
+          .rotating-text {
+            font-size: 1.5rem; /* Larger font size */
+          }
+        }
+
+        /* Medium Screens */
+        @media (max-width: 992px) {
+          .rotating-circle {
+            width: 300px;
+            height: 300px;
+            top: calc(50% - 150px);
+            left: calc(50% - 150px);
+          }
+
+          .rotating-text {
+            font-size: 1.2rem;
+          }
+        }
+
+        /* Small Screens */
+        @media (max-width: 768px) {
+          .rotating-circle {
+            width: 350px;
+            height: 350px;
+            top: calc(50% - 160px);
+            left: calc(50% - 150px);
+          }
+
+          .rotating-text {
+            font-size: 1.5rem; /* Smaller font size */
+          }
+        }
+
+        /* Extra Small Screens */
+        @media (max-width: 576px) {
+          .rotating-circle {
+            width: 300px;
+            height: 300px;
+            top: calc(50% - 150px);
+            left: calc(50% - 150px);
+          }
+
+          .rotating-text {
+            font-size: 0.9rem; /* Further reduced text size */
           }
         }
       `}</style>
