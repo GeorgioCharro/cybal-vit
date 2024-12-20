@@ -102,7 +102,7 @@ const ChooseAreaHomeOne: React.FC = () => {
           }
 
           .feature-card h4 {
-            color: #18FEF542;
+            color: #144576;
             margin-bottom: 10px;
             font-size: 1.2rem;
             font-weight: bold;

@@ -145,7 +145,7 @@ body {
 	position: relative;
 	}
 	.section-title span {
-		background: rgba(24,254,245,0.4);
+		background: #144576;
 		padding: 4px 30px;
 		border-radius: 30px;
 		color: #fff;
@@ -189,8 +189,8 @@ body {
 	/*END SCROLL TO TOP*/
 	/*START BTN*/
 	.btn_one {
-		background-image: -webkit-linear-gradient(to right, #5e9999 0%, #477577 51%, #5e9999 100%);
-    	background-image: linear-gradient(to right, #5e9999 0%, #477577 51%, #5e9999 100%);
+		background-image: -webkit-linear-gradient(to right, #0196E7 0%, #FF00A4 51%, #FF00A4 100%); 
+		background-image: linear-gradient(to right, #0196E7 0%, #FF00A4 51%, #FF00A4 100%);
 		border-radius: 3px;
 		background-size: 200% auto;
 		border-style: none;

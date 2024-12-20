@@ -16,7 +16,7 @@ const CapabilityCard: React.FC<CapabilityCardProps> = ({ title, description }) =
           style={{
             width: "50px",
             height: "4px",
-            backgroundColor: "#127176",
+            backgroundColor: "#144576",
             margin: "0 auto",
           }}
         ></div>

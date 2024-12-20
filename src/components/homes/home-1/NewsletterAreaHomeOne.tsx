@@ -37,7 +37,7 @@ const NewsletterAreaHomeOne = () => {
                       style={{
                         border: 'none',
                         borderRadius: '0',
-                        backgroundColor: '#5fb7bf',
+                        backgroundColor: '#144576',
                         width: '20%', // Responsive width (percentage)
                         minWidth: '100px', // Ensures a minimum size
                       }}

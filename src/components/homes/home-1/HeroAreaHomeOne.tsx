@@ -51,22 +51,6 @@ const HeroAreaHomeOne = () => {
       {/* Video modal end */}
 
       {/* Inline Styles */}
-      <style>{`
-        .btn_one {
-          display: inline-block;
-          background: #00bcd4;
-          color: #fff;
-          padding: 10px 20px;
-          border-radius: 5px;
-          transition: background 0.3s ease;
-        }
-
-        .btn_one:hover {
-          background: #0097a7;
-          text-decoration: none;
-          color: #fff;
-        }
-      `}</style>
     </>
   );
 };
